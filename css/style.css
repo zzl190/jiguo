@@ -100,9 +100,9 @@
 }
 
 .logo:hover img {
-    animation: fade 1s ease-in infinite;
-    -moz-animation: fade 1s ease-in infinite;
     -webkit-animation: fade 1s ease-in infinite;
+    -moz-animation: fade 1s ease-in infinite;
+    animation: fade 1s ease-in infinite;
 }
 
 .header nav {
