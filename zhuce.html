@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/zhuce.css">
+</head>
+<body>
+    
+    <div class="navigation">
+        <div class="box">
+            <img src="./img/logonew.png" alt="">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">酷玩</a></li>
+            <li><a href="#">导购</a></li>
+            <li><a href="#">使用</a></li>
+            <li><a href="#">报告</a></li>
+        </ul>
+        <div class="box1">
+            <a href="#"></a>
+            <p><a href="#">注册</a></p>
+            <p><a href="#">登录</a></p>
+        </div>
+        </div>
+    </div>
+
+    <section class="report-box regMain">
+        <div class="wrap regBox">
+            <h2 class="title">
+                "注册极果"
+            </h2>
+            <!-- action="./login.html" -->
+            <form id="app" class="regForm" action="./login.html" name="my_fl"   method="get" >
+                <p><input type="text" placeholder="请输入登录手机号" pattern="^1[1-9][0-9]{9}$" required="required" v-model="user.phone"
+                        name="tel"></p>
+                <p><input type="text" placeholder="请输入图片校验码" required="required" name="imgCode">
+                    <img src="img/imgCode.jpg" width="132" height="35">
+                </p>
+                <p><input type="text" placeholder="请输入4位数字验证码" pattern="^\d{4}$" required="required" name="code">
+                    <a href="#" class="getCode">获取验证码</a>
+                </p>
+                <p><input type="text" placeholder="请输入用户名" required="required" v-model="user.username">
+                </p>
+                <p><input type="password" placeholder="请输入密码" required="required" name="psw1" v-model="user.password"></p>
+                <p><input type="password" placeholder="确认密码" required="required" name="psw2">
+                </p>
+                <p>
+                    <button id="submit" @click="reg">立即注册</button>
+                </p>
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <ul class="footer_main">
+            <li><img src="img/code.png" alt=""></li>
+            <li>
+                <div class="title"><img src="img/logoImg.jpg" alt=""></div>
+                <p>全球酷玩试用导购平台<br>
+                    酷·新奇·好玩·品质</p>
+                <p>全球酷玩试用导购平台<br>
+                    酷·新奇·好玩·品质</p>
+            </li>
+            <li>
+                <div class="top">免费试用</div>
+                <ul class="text">
+                    <li>试用流程</li>
+                    <li>如何提高成功率</li>
+                </ul>
+            </li>
+            <li>
+                <!-- 智东西WEIBUSI
+搜狐IT腾讯科技
+搜狐数码凤凰科技
+凤凰数码PConline
+泡泡网3W咖啡
+ZUK社区亿觅emie
+极客公园易迅易启玩
+果库 -->
+                <div class="top">免费试用</div>
+                <ul class="text">
+                    <li><span>智东西</span><span>WEIBUSI</span> </li>
+                    <li><span>搜狐IT</span><span>腾讯科技</span> </li>
+                    <li><span>搜狐数码</span><span>凤凰科技</span> </li>
+                    <li><span>泡泡网</span><span>3W咖啡</span> </li>
+                    <li><span>ZUK社区</span><span>亿觅emie</span> </li>
+                    <li><span>极客公园</span><span>易迅易启玩</span> </li>
+                    <li><span>果库</span><span></span> </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </li>
+            <li>
+                <div class="top">免费试用</div>
+                <ul class="text">
+                   
+                    <li>美亚海淘教程</li>
+                    <li>日亚海淘教程</li>
+                    <li>海淘转运攻略</li>
+                    <li>kickstarter&nbsp;众筹购买攻略</li>
+                    <li>indiegogo&nbsp;众筹购买攻略</li>
+                </ul>
+            </li>
+            <li>
+                <div class="top">免费试用</div>
+                <ul class="text">
+                   
+                    <li>关于极果</li>
+                    <li>联系我们</li>
+                    <li>商务合作：BD@jiguo.com</li>
+                    <li>CEO邮箱：CEO@jiguo.com </li>
+                </ul>
+            </li>
+
+        </ul>
+        <p>&copy; 2016 极果版权所有</p>
+    </footer>
+</body>
+</html>
+<script src="./css/zhuce.js"></script>
+<script src="./"></script>
